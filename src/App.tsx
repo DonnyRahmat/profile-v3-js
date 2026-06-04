@@ -17,7 +17,7 @@ import {
   Layers,
   Phone
 } from 'lucide-react';
-import myPhoto from './assets/photo_2026-05-28_12-46-35.webp';
+// import myPhoto from './assets/photo_2026-05-28_12-46-35.webp';
 import { clsx, type ClassValue } from 'clsx';
 import { twMerge } from 'tailwind-merge';
 
@@ -140,7 +140,7 @@ const Hero = () => {
           <div className="relative bg-slate-900 aspect-square rounded-2xl overflow-hidden border border-slate-800 shadow-2xl">
             <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/10 to-transparent"></div>
             <img 
-              src={myPhoto} 
+              src="/photo_2026-05-28_12-46-35.webp" 
               alt="M. Donny Rahmat K" 
               fetchPriority="high"
               className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
