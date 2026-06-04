@@ -243,28 +243,28 @@ const Projects = () => {
     {
       title: "CRM Grand Batang City (KITB)",
       description: "Comprehensive CRM system for managing commercial leads and tenants in an integrated industrial zone.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1000&auto=format&fit=crop",
       link: "#",
       tech: ["Laravel", "Metronic UI", "Docker", "Nginx"]
     },
     {
       title: "HRIS Vesperia (CSA)",
       description: "Advanced Human Resource Information System with attendance management via Leaflet maps and automated payroll.",
-      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=2011&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1000&auto=format&fit=crop",
       link: "#",
       tech: ["React (TS)", "Radix UI", "TanStack", "PostgreSQL"]
     },
     {
       title: "Environment & Server Setup (IDX)",
       description: "CI/CD pipeline and monitoring setup for microservices at the Indonesia Stock Exchange.",
-      image: "https://images.unsplash.com/photo-1558494949-ef8b56821806?q=80&w=1974&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1558494949-ef8b56821806?q=80&w=1000&auto=format&fit=crop",
       link: "#",
       tech: ["Kubernetes", "Golang", "ArgoCD", "Grafana"]
     },
     {
       title: "Website Portal Aduan BNPT",
       description: "Public portal for reporting acts of terrorism, featuring multi-level filtering by location and photo evidence auditing.",
-      image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=2070&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=1000&auto=format&fit=crop",
       link: "#",
       tech: ["PHP", "Metronic UI", "MySQL"]
     }
