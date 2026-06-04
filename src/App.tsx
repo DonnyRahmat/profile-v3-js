@@ -17,7 +17,7 @@ import {
   Layers,
   Phone
 } from 'lucide-react';
-import myPhoto from './assets/photo_2026-05-28_12-46-35.jpg';
+import myPhoto from './assets/photo_2026-05-28_12-46-35.webp';
 import { clsx, type ClassValue } from 'clsx';
 import { twMerge } from 'tailwind-merge';
 
@@ -65,7 +65,7 @@ const Navbar = () => {
     )}>
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         <a href="#" className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">
-          DRK.
+          MDRK.
         </a>
         <div className="hidden md:flex gap-8">
           {navLinks.map((link) => (
@@ -124,7 +124,7 @@ const Hero = () => {
             </div>
             <div className="w-px h-12 bg-slate-800" />
             <div>
-              <p className="text-3xl font-bold text-white">10+</p>
+              <p className="text-3xl font-bold text-white">5+</p>
               <p className="text-slate-500 text-sm">Enterprises</p>
             </div>
             <div className="w-px h-12 bg-slate-800" />
@@ -142,6 +142,7 @@ const Hero = () => {
             <img 
               src={myPhoto} 
               alt="M. Donny Rahmat K" 
+              fetchPriority="high"
               className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
             />
           </div>
@@ -290,6 +291,7 @@ const Projects = () => {
                 <img 
                   src={project.image} 
                   alt={project.title}
+                  loading="lazy"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
